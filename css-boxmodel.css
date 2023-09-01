@@ -1,0 +1,33 @@
+h1 {
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    border: 2px solid black;
+    padding: 10px 50px;
+    margin: 10px 50px;
+}
+
+div {
+    width: 1000px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 5px dotted red;
+    padding: 5px 15px 20px 10px;
+    margin: 50px 100px 15px 20px;
+}
+
+ul {
+    background-color: brown;
+    border: 5px dashed yellow;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}

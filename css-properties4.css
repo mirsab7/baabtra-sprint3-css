@@ -1,0 +1,59 @@
+#div1 {
+    /* backgorund-image: linear-gradient(direction,color1,color2,...) */
+
+    /* background-image: linear-gradient(to right, red, blue); */
+
+    /* background-image: linear-gradient(to bottom right,red,yellow); */
+
+    /* background-image: linear-gradient(50deg,red,yellow); */
+
+    /* background-image: linear-gradient(red,blue,green); */
+
+    background-image: linear-gradient(to right, rgba(7, 77, 255, 0.9), rgba(48, 48, 137, 0.1));
+}
+
+#div2 {
+    height: 500px;
+    width: 800px;
+    /* background-color: darkcyan; */
+    background-color: rgba(48, 48, 137, 0.9);
+}
+
+#div3 {
+    width: 700px;
+    height: 500px;
+    /* background-image: radial-gradient(circle,red,yellow,green); */
+    background-image: radial-gradient(red 14%, yellow 40%, green 50%);
+}
+
+#div4 {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    /* background-image: conic-gradient(red,yellow,green,brown,black); */
+    /* background-image: conic-gradient(red 45deg,yellow 90deg,blue 210deg); */
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg,
+            green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+
+/* box-shadow: none| h-offset v-offset blur spread color| inset */
+#box-shadow{
+    border: 2px solid red;
+    padding: 20px;
+    /* box-shadow: 5px 10px red; */
+    /* box-shadow: 8px 15px 20px 10px green; */
+    /* box-shadow: 20px 20px 50px 10px red inset; */
+    /* box-shadow: none; */
+}
+
+#overflow{
+    width: 600px;
+    height: 400px;
+    background-color: blueviolet;
+    border: 2px;
+    padding: 10px;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow: scroll;
+}

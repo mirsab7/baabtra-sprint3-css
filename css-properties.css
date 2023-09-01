@@ -1,0 +1,84 @@
+/* color properties  */
+
+h1 {
+    /* color: chocolate; */
+    /* color: rgb(165, 181, 27); */
+    /* color: rgb(255, 0, 0) */
+    color: #31ebec;
+}
+
+/* border properties */
+
+h1 {
+    /* border: 5px solid red; */
+    border-color: blueviolet;
+    border-width: 3px;
+    /* border-style: solid; */
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 10px;
+}
+
+/* background properties */
+
+div {
+    height: 500px;
+    width: 800px;
+    background-color: blueviolet;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+}
+
+/* font properties */
+
+#para1 {
+    /* font-size: 24px; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic ;
+    font-weight: bold;
+    font-variant: small-caps; */
+    font: italic small-caps bold 24px Georgia
+}
+
+/* text properties */
+
+#para2 {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 5px 5px yellow;
+}
+
+#users td,
+#users th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#users {
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#users th {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+#users tr:nth-child(even) {
+    background-color:brown;
+}
+
+#users tr:hover{
+    background-color: yellow;
+}
